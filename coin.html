@@ -18,10 +18,10 @@ function handleclick(){
 	//
 
 	if (Math.random() > 0.5){
-		yes()
+		show("yes");
 	}
 	else{
-		no()
+		show("no");
 	}
 	window.setTimeout(reload_page, 1500);
 }
@@ -30,20 +30,12 @@ function reload_page(){
 	location.reload()
 }
 
-function yes(){
-	console.log("1!")
+function show(outcome){
+	console.log(outcome)
 	change_class = document.getElementById("root") 
-    change_class.setAttribute("class", "yes")
+    change_class.setAttribute("class", outcome)
     change_text = document.getElementById("p_text") 
-    change_text.innerHTML = "YES"
-}
-
-function no(){
-	console.log("0!")
-	change_class = document.getElementById("root") 
-    change_class.setAttribute("class", "no")
-    change_text = document.getElementById("p_text") 
-    change_text.innerHTML = "NO"
+    change_text.innerHTML = outcome.toUpperCase()
 }
 
 </script>
