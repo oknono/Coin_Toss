@@ -10,6 +10,10 @@
 	background-color: black;
 }
 
+.animation{
+	background-color: purple;
+}
+
 #button{
     height: 300px;
     width: 300px;
