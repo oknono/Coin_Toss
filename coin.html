@@ -26,6 +26,12 @@ function handleclick(){
         change_text = document.getElementById("p_text") 
         change_text.innerHTML = "NO"
 	}
+	window.setTimeout(reload_page, 2000);
+}
+
+function reload_page(){
+	location.reload()
+}
 </script>
 </body>
 </html>
