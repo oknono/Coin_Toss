@@ -12,16 +12,12 @@
 <script type="text/javascript">
 function handleclick(){
 	// Short animation spinning the colors
-	//
-	//
-	//
-	//
 
 	if (Math.random() > 0.5){
-		show("yes");
+		display("yes");
 	}
-	else{
-		show("no");
+	else {
+		display("no");
 	}
 	window.setTimeout(reload_page, 1500);
 }
@@ -30,7 +26,7 @@ function reload_page(){
 	location.reload()
 }
 
-function show(outcome){
+function display(outcome){
 	console.log(outcome)
 	change_class = document.getElementById("root") 
     change_class.setAttribute("class", outcome)
