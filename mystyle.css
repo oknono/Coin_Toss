@@ -1,0 +1,50 @@
+.question {
+	background-color: gray;
+}
+
+.yes{
+	background-color: white;
+}
+
+.no{
+	background-color: black;
+}
+
+#button{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    left:0; right:0;
+    top:0; bottom:0;
+}
+
+.question #button{
+
+background-color: red;
+color: white;
+font-size: 4em;
+}
+
+.yes #button{
+
+background-color: black;
+color: white;
+font-size: 4em;
+}
+
+.no #button{
+
+background-color: white;
+color: black;
+font-size: 4em;
+}
+
+p { 
+	text-align: center;
+    vertical-align: middle;
+    line-height: 300px;  
+	font-size: 72px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
