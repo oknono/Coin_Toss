@@ -1,3 +1,7 @@
+body {
+	background-color: #F9F2EC;
+}
+
 h1, h2 {
 	text-align: center;
 	font-family: helvetica;
@@ -41,27 +45,9 @@ p {
 	color: #F9F2EC;
 }
 
-.yes  h2 {
+.yes h2 {
 	color: #F9F2EC;
 }
-
-.question {
-	color: black;
-	background-color: #F9F2EC;
-}
-
-.yes {
-	background-color: #F9F2EC;
-}
-
-.no {
-	background-color: #F9F2EC;
-}
-
-.test {
-	background-color: #F9F2EC;
-}
-
 
 #button {
 	padding: 0;
