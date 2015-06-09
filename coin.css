@@ -1,14 +1,15 @@
 h1, h2 {
 	text-align: center;
-	font-family: helvetica
+	font-family: helvetica;
+	color: #06130D;
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 3em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 p { 
@@ -20,28 +21,51 @@ p {
 	font-weight: bold;
 }
 
-/*.invisible {
-	visibility: hidden;
-} */
+.test h1 {
+	color: #06130D;
+}
+
+.test h2 {
+	color: #06130D;
+}
+
+.no h1 {
+	color: #F9F2EC;
+}
+
+.no h2 {
+	color: #F9F2EC;
+}
+
+.yes h1 {
+	color: #F9F2EC;
+}
+
+.yes  h2 {
+	color: #F9F2EC;
+}
 
 .question {
+	color: black;
 	background-color: #F9F2EC;
 }
 
-/*.yes{
-	background-color: white;
+.yes {
+	background-color: #F9F2EC;
 }
 
-.no{
-	background-color: black;
+.no {
+	background-color: #F9F2EC;
 }
-*/
-.test{
+
+.test {
+	color: #06130D;
 	background-color: #06130D;
 }
 
 
-#button{
+#button {
+	padding: 0;
     height: 300px;
     width: 300px;
     color: #F9F2EC;
@@ -61,12 +85,12 @@ background-color: #32FFA8;
 box-shadow: 10px 10px 5px #888888;
 }
 
-.no #button{
+.no #button {
 background-color: #FF650D;
 box-shadow: 10px 10px 5px #888888;
 }
 
-.test #button{
+.test #button {
 background-color: #06130D;
 }
 

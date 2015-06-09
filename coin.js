@@ -20,8 +20,6 @@ function reload_page(){
 }
 
 function display(outcome){
-	//change_headings = document.getElementById("visible");
-    //change_headings.setAttribute("visible", "invisible");
 	change_class = document.getElementById("root");
     change_class.setAttribute("class", outcome);
     change_text = document.getElementById("p_text");
@@ -31,5 +29,6 @@ function display(outcome){
     else{
         change_text.innerHTML = outcome.toUpperCase();
     }
+    
 }
 
