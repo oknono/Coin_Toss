@@ -22,11 +22,11 @@ p {
 }
 
 .test h1 {
-	color: #06130D;
+	color: #F9F2EC;
 }
 
 .test h2 {
-	color: #06130D;
+	color: #F9F2EC;
 }
 
 .no h1 {
@@ -59,8 +59,7 @@ p {
 }
 
 .test {
-	color: #06130D;
-	background-color: #06130D;
+	background-color: #F9F2EC;
 }
 
 
@@ -73,21 +72,19 @@ p {
     margin: auto;
     left:0; right:0;
     top:0; bottom:0;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .question #button {
 background-color: #E80C7A;
-box-shadow: 10px 10px 5px #888888;
 }
 
 .yes #button {
 background-color: #32FFA8;
-box-shadow: 10px 10px 5px #888888;
 }
 
 .no #button {
 background-color: #FF650D;
-box-shadow: 10px 10px 5px #888888;
 }
 
 .test #button {
