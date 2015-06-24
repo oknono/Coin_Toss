@@ -1,16 +1,17 @@
 function handleclick(){
 	// Short animation spinning the colors
-    display("test");
+    document.getElementById("show").style.visibility = 'hidden';
+    showText("test");
     window.setTimeout(coin_toss, 1500);
 }
 
 function coin_toss(){
     // shows outcome of coin toss and reloads page
 	if (Math.random() > 0.5){
-		display("yes");
+		showText("yes");
 	}
 	else {
-		display("no");
+		showText("no");
 	}
 	window.setTimeout(reload_page, 3000);
 }
@@ -19,7 +20,7 @@ function reload_page(){
 	location.reload();
 }
 
-function display(outcome){
+function showText(outcome){
 	change_class = document.getElementById("root");
     change_class.setAttribute("class", outcome);
     change_text = document.getElementById("p_text");

@@ -1,0 +1,76 @@
+body {
+	background-color:#000;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: helvetica;
+	color: #FFF;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+p {
+	text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+	font-size: 72px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.test h1 {
+	color: #F9F2EC;
+}
+
+.test h2 {
+	color: #F9F2EC;
+}
+
+.no h1 {
+	color: #F9F2EC;
+}
+
+.no h2 {
+	color: #F9F2EC;
+}
+
+.yes h1 {
+	color: #F9F2EC;
+}
+
+.yes h2 {
+	color: #F9F2EC;
+}
+
+#button {
+	padding: 0;
+    height: 300px;
+    width: 300px;
+    color: #FFF;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.question #button {
+background-color: #EB0C9A;
+}
+
+.yes #button {
+background-color: #00FF57;
+}
+
+.no #button {
+background-color: #FF1700;
+}
+
+.test #button {
+color: #000;
+background-color: #FFF;
+}
