@@ -1,7 +1,29 @@
-#coin {
-	background: #FF006E;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+body {
+	background-color:#FFF;
+}
 
+.coin {
+	  display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #EB0C9A;
+    border-radius: 50%;
+}
+
+.row {
+	display: block;
+}
+
+.even {
+	    background-color: #FF1700;
+}
+
+p {
+	text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+	font-size: 36px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color:#FFF;
 }

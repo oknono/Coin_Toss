@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <style>
-        body {
-          background-color: linen;
-        }
-
-        #coin {
-	      background: blue;
-          width: 200px;
-          height: 200px;
-          border-radius: 50%;
-         } 
-      </style>
-	<!-- <link rel="stylesheet" type="text/css" href="css/coin3.css"> -->
-	<!-- <script src="javascript/coin3.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="css/coin3.css">
+  <script src="javascript/coin3.js"></script>
 </head>
 <body>
-	<div id="coin"></div>
-	<script>
-	var x = "green";
-	var y = "purple";
-	
-	change_color(1);
-
-    function change_color(counter){
-    	if (color == 0){
-           document.getElementById("coin").style.background = x;
-           setTimeout(function(){change_color(1);}, 1000);
-        }
-        else {
-           document.getElementById("coin").style.background = y;
-           setTimeout(function(){change_color(0);}, 1000);
-        }
-        
-
-    }
-    </script>
+  <div class="grid">
+    <div class="row">
+    	<div class="coin even" onclick="handleclick()">
+        <p class="p_text">one</p>
+      </div><!-- End coin div-->
+      <div class="coin uneven" onclick="handleclick()">
+        <p class="p_text">two</p>
+      </div><!-- End coin div-->
+      <div class="coin even" onclick="handleclick()">
+        <p class="p_text">three</p>
+      </div><!-- End coin div-->
+    </div><!-- End row div-->
+    <div class="row">
+      <div class="coin uneven" onclick="handleclick()">
+        <p class="p_text">four</p>
+      </div><!-- End coin div-->
+    	<div class="coin even" onclick="handleclick()">
+        <p class="p_text">five</p>
+      </div><!-- End coin div-->
+      <div class="coin uneven" onclick="handleclick()">
+        <p class="p_text">six</p>
+      </div><!-- End coin div-->
+    </div><!-- End row div-->
+    <div class="row">
+      <div class="coin even" onclick="handleclick()">
+        <p class="p_text">seven</p>
+      </div><!-- End coin div-->
+      <div class="coin uneven" onclick="handleclick()">
+        <p class="p_text">eight</p>
+      </div><!-- End coin div-->
+      <div class="coin even" onclick="handleclick()">
+        <p class="p_text">nine</p>
+      </div><!-- End coin div-->
+    </div><!-- End row div-->
+</div> <!-- End grid div-->
 </body>
 </html>
